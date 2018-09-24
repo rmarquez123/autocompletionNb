@@ -30,7 +30,7 @@ public class AcCompletionItem implements org.netbeans.spi.editor.completion.Comp
     this.autoCompletion = autoCompletion;
     this.completionItem = completionItem;
   }
-
+  
   /**
    *
    * @param jtc

@@ -37,7 +37,7 @@ public class CodeTemplateCompletionItemsManager implements CompletionItemsManage
     List<CompletionItem> collect = codeTemplates.stream().map((ct)->{
       String description = ct.getDescription();
       int lastIndexOfSemiColon = description == null ? -1 : description.lastIndexOf(":"); 
-      int lastIndexOfPeriod = description == null ? -1 : description.lastIndexOf("."); 
+      int lastIndexOfPeriod = description == null ? -1 : description.lastIndexOf(".", lastIndexOfSemiColon); 
       String key; 
       if (description != null 
               && lastIndexOfSemiColon != -1 

@@ -55,12 +55,13 @@ public class CodeTemplateDocument implements Document {
         int caretOffset = cursorWord.getCaretOffSet();
         StyledDocument doc = cursorWord.getDocument();
         Object object = ci.getObject();
-        if (object == null) {
-          doc.insertString(caretOffset, ci.getKey(), null);
+        
+        int len = cursorWord.getText().length();
+        doc.remove(caretOffset - len, len);
+        if (object == null) {  
+          doc.insertString(caretOffset - len, ci.getKey(), null);
         } else {
           JTextComponent jtc = cursorWord.getTextField();
-          int len = cursorWord.getText().length();
-          doc.remove(caretOffset - cursorWord.getText().length(), len);
           CodeTemplate ct = (CodeTemplate) object; 
           ct.insert(jtc);
         }
