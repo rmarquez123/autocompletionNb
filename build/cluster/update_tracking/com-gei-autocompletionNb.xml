@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.gei.autocompletionNb">
+    <module_version install_time="1537660871748" last="true" origin="installer" specification_version="1.0">
+        <file crc="1366732794" name="config/Modules/com-gei-autocompletionNb.xml"/>
+        <file crc="1382590722" name="modules/com-gei-autocompletionNb.jar"/>
+        <file crc="3845588737" name="modules/ext/autocompletion-1.0-SNAPSHOT.jar"/>
+    </module_version>
+</module>

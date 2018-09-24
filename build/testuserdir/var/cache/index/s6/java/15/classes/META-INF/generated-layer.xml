@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Editors">
+        <folder name="text">
+            <folder name="x-javascript">
+                <folder name="CompletionProviders">
+                    <file name="com-gei-autocompletion-nb-codetemplates-JsTemplateCompletionProvider.instance">
+                        <!--com.gei.autocompletion.nb.codetemplates.JsTemplateCompletionProvider-->
+                        <attr name="instanceOf" stringvalue="org.netbeans.spi.editor.completion.CompletionProvider"/>
+                    </file>
+                </folder>
+            </folder>
+            <folder name="x-java">
+                <folder name="CompletionProviders">
+                    <file name="com-gei-autocompletion-nb-codetemplates-JavaCodeTemplateCompletionProvider.instance">
+                        <!--com.gei.autocompletion.nb.codetemplates.JavaCodeTemplateCompletionProvider-->
+                        <attr name="instanceOf" stringvalue="org.netbeans.spi.editor.completion.CompletionProvider"/>
+                    </file>
+                </folder>
+            </folder>
+            <folder name="xml">
+                <folder name="CompletionProviders">
+                    <file name="com-gei-autocompletion-nb-codetemplates-XmlCodeTemplateCompletionProvider.instance">
+                        <!--com.gei.autocompletion.nb.codetemplates.XmlCodeTemplateCompletionProvider-->
+                        <attr name="instanceOf" stringvalue="org.netbeans.spi.editor.completion.CompletionProvider"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>
