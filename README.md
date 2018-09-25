@@ -1,7 +1,5 @@
-# autocompletionNb
-autocompletion for netbeans (integration with code templates)
-
-Purpose
+# autocompletionNb - autocompletion for netbeans (integration with code templates) 
+<h3>Purpose<h3> 
 The code templates feature in Netbeans is useful for storing common code snippets which can be inserted into a document by typing the code template name.   For users who frequent this feature, the code template names have to be committed to memory.   It would be nice if code completion in (out-of-the-box) Netbeans would support assistance for invoking code templates based on a few key strokes in the editor.  
 
 This module bridges the gap between auto completion and code templates in Netbeans.  The module has bean packaged as a Netbean plugin which can be download from here.  
