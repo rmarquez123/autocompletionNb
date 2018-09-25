@@ -35,7 +35,7 @@ The above general sequence diagram was converted into a class diagram (not shown
 
 <h3>Package Organization: </h3>
   <div align="center" width="1200px"> 
-    <img src="http://ricardo-marquez.com/rm/assets/images/autocompletion-nb-packages-384x422.png" alt="" height="450px">
+    <img src="http://ricardo-marquez.com/rm/assets/images/autocompletion-nb-packages-384x422.png" alt="" height="350px">
   </div> 
   
 <h4><code>com.rm.autocompletion.nb</code> </h4>
