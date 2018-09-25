@@ -1,4 +1,4 @@
-# autocompletionNb - autocompletion for netbeans (integration with code templates) 
+# autocompletion with code templates integration in Netbeans 
 <h4>See Also : https://github.com/rmarquez123/autocompletion</h4>
 <h4>Download the plugin : http://ricardo-marquez.com/nb/com-rm-autocompletionNb.nbm</h4>
 <h4> See plug in in Action</h4> 
