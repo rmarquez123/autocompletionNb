@@ -32,9 +32,9 @@ The above general sequence diagram was converted into a class diagram (not shown
     <img src="http://ricardo-marquez.com/rm/assets/images/autocompletion-nb-packages-384x422.png" alt="" height="450px">
   </div> 
   
-com.rm.autocompletion.nb 
+<h4><code>com.rm.autocompletion.nb</code> </h4>
 This package contains integration with the Autocompletion and Netbeans editor auto completion support but abstracts the Document and part of the ManagedSet implementation.  
-com.rm.autocompletion.nb.codetemplates 
+<h4><code>com.rm.autocompletion.nb.codetemplates</code></h4>
 This package implements the Document and ManageSet abstractions based on code templates.  
 
 Incidentally, the relation among classes in the two packages in the module happens to resemble the Bridge Design Pattern.   This is ideal because I intend to reuse this module for another use case involing code completion with custom Spring components in a future blog. The class diagram is shown below.
