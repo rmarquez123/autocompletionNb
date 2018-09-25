@@ -8,6 +8,10 @@ The rest of the article below describes how the plugin was produced in case any 
 
 This module uses the autocompletion module which was described in this blog.  The sequence diagram shows the interaction of key objects.
 
+  <div align="center" width="1200px"> 
+    <img src="http://ricardo-marquez.com/rm/assets/images/sequence-diagram-autocompletionnb.svg" alt="" height="450px">
+  </div> 
+
 <h4>1. Sequence Entry: <<create>> </h4>
 The first interaction case, the CodeTemplateCompletionProvider (which implements Netbeans' CompletionProvider class) is the controller object and is instantiated by Netbeans when the file with the matching mime type (configured with annotations) is opened.  On instantiation, the CodeTemplateCompletionProvider creates its collaborators Autocompletion and CodeTemplateDocument.  
 
@@ -22,12 +26,18 @@ The user then selects a completion item which causes the Netbeans IDE to invoke 
 
 The above general sequence diagram was converted into a class diagram (not shown), then after some generalization considerations a separate package was created to consist of classes specifically pertaining to code templates (highlighted in blue in the sequence diagram).  The following package organization below resulted from the refactoring. 
 
-<h3>Package Organization: </h3> 
+<h3>Package Organization: </h3>
+  <div align="center" width="1200px"> 
+    <img src="http://ricardo-marquez.com/rm/assets/images/sequence-diagram-autocompletionnb.svg" alt="" height="450px">
+  </div> 
+  
 com.rm.autocompletion.nb 
 This package contains integration with the Autocompletion and Netbeans editor auto completion support but abstracts the Document and part of the ManagedSet implementation.  
 com.rm.autocompletion.nb.codetemplates 
 This package implements the Document and ManageSet abstractions based on code templates.  
 
 Incidentally, the relation among classes in the two packages in the module happens to resemble the Bridge Design Pattern.   This is ideal because I intend to reuse this module for another use case involing code completion with custom Spring components in a future blog. The class diagram is shown below.
-
+  <div align="center" width="1200px"> 
+    <img src="http://ricardo-marquez.com/rm/assets/images/class-diagram-autocompletion-nb.svg" alt="" height="450px">
+  </div> 
 
