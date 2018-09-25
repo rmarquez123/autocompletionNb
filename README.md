@@ -28,7 +28,7 @@ The above general sequence diagram was converted into a class diagram (not shown
 
 <h3>Package Organization: </h3>
   <div align="center" width="1200px"> 
-    <img src="http://ricardo-marquez.com/rm/assets/images/sequence-diagram-autocompletionnb.svg" alt="" height="450px">
+    <img src="http://ricardo-marquez.com/rm/assets/images/autocompletion-nb-packages-384x422.png" alt="" height="450px">
   </div> 
   
 com.rm.autocompletion.nb 
@@ -38,6 +38,6 @@ This package implements the Document and ManageSet abstractions based on code te
 
 Incidentally, the relation among classes in the two packages in the module happens to resemble the Bridge Design Pattern.   This is ideal because I intend to reuse this module for another use case involing code completion with custom Spring components in a future blog. The class diagram is shown below.
   <div align="center" width="1200px"> 
-    <img src="http://ricardo-marquez.com/rm/assets/images/class-diagram-autocompletion-nb.svg" alt="" height="450px">
+    <img src="http://ricardo-marquez.com/rm/assets/images/class-diagram-autocompletion-nb.svg" alt="" height="350px">
   </div> 
 
