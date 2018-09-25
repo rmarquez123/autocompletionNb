@@ -9,7 +9,7 @@ The rest of the article below describes how the plugin was produced in case any 
 This module uses the autocompletion module which was described in this blog.  The sequence diagram shows the interaction of key objects.
 
   <div align="center" width="1200px"> 
-    <img src="http://ricardo-marquez.com/rm/assets/images/sequence-diagram-autocompletionnb.svg" alt="" height="450px">
+    <img src="http://ricardo-marquez.com/rm/assets/images/sequence-diagram-autocompletionnb.svg" alt="" height="550px">
   </div> 
 
 <h4>1. Sequence Entry: <<create>> </h4>
