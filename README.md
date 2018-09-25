@@ -31,6 +31,7 @@ The query method of <code>CtASyncCompletionTask</code> will be called with the r
 <h4>4. Sequence Entry: <code>defaultAction()</code> </h4>
 The user then selects a completion item which causes the Netbeans IDE to invoke the <code>defaultAction</code> of the <code>CompletionItem</code>.  The completion item will then invoke the <code>AutoCompletion</code> to display which then invokes the <code>Document</code>(in this case <code>CodeTemplateDocument</code>) to replace the cursor word with the insertion text.  
 
+
 The above general sequence diagram was converted into a class diagram (not shown), then after some generalization considerations a separate package was created to consist of classes specifically pertaining to code templates (highlighted in blue in the sequence diagram).  The following package organization below resulted from the refactoring. 
 
 <h3>Package Organization: </h3>
