@@ -43,5 +43,7 @@ Incidentally, the relation among classes in the two packages in the module happe
     <img src="http://ricardo-marquez.com/rm/assets/images/class-diagram-autocompletion-nb.svg" alt="" height="350px">
   </div> 
   
-
+<h3> See plug in in Action<h3> 
+<div align="center">
 [![netbeans code completion](https://img.youtube.com/vi/kIvnGBucGko/0.jpg)](http://www.youtube.com/watch?v=kIvnGBucGko)
+</div> 
