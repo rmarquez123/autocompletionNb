@@ -14,7 +14,7 @@ This module uses the autocompletion module which was described in this blog.  Th
     <img src="http://ricardo-marquez.com/rm/assets/images/sequence-diagram-autocompletionnb.svg" alt="" height="550px">
   </div> 
 
-<h4>1. Sequence Entry: <code><<create>></code> </h4>
+<h4>1. Sequence Entry: <pre><code><<create>></code></pre> </h4>
 The first interaction case, the CodeTemplateCompletionProvider (which implements Netbeans' <code>CompletionProvider</code> class) is the controller object and is instantiated by Netbeans when the file with the matching mime type (configured with annotations) is opened.  On instantiation, the <code>CodeTemplateCompletionProvider</code> creates its collaborators <code>Autocompletion</code> and <code>CodeTemplateDocument</code>.  
 
 <h4>2. Sequence Entry:  createTask() </h4>
