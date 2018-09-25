@@ -40,6 +40,7 @@ The above general sequence diagram was converted into a class diagram (not shown
   
 <h4><code>com.rm.autocompletion.nb</code> </h4>
 This package contains integration with the <code>Autocompletion</code> and Netbeans editor auto completion support but abstracts the <code>Document</code> and part of the <code>ManagedSet</code> implementation.  
+
 <h4><code>com.rm.autocompletion.nb.codetemplates</code></h4>
 This package implements the <code>Document</code> and <code>ManageSet</code> abstractions based on code templates.  
 
