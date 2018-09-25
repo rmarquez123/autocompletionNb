@@ -1,6 +1,11 @@
 # autocompletionNb - autocompletion for netbeans (integration with code templates) 
 <h4>See Also : https://github.com/rmarquez123/autocompletion</h4>
 <h4>Download the plugin : http://ricardo-marquez.com/nb/com-rm-autocompletionNb.nbm</h4>
+<h4> See plug in in Action</h4> 
+
+[![netbeans code completion](https://img.youtube.com/vi/kIvnGBucGko/0.jpg)](http://www.youtube.com/watch?v=kIvnGBucGko)
+
+
 <h3>Purpose</h3> 
 The code templates feature in Netbeans is useful for storing common code snippets which can be inserted into a document by typing the code template name.   For users who frequent this feature, the code template names have to be committed to memory.   It would be nice if code completion in (out-of-the-box) Netbeans would support assistance for invoking code templates based on a few key strokes in the editor.  
 
@@ -43,7 +48,5 @@ Incidentally, the relation among classes in the two packages in the module happe
     <img src="http://ricardo-marquez.com/rm/assets/images/class-diagram-autocompletion-nb.svg" alt="" height="350px">
   </div> 
   
-<h3> See plug in in Action</h3> 
 
-[![netbeans code completion](https://img.youtube.com/vi/kIvnGBucGko/0.jpg)](http://www.youtube.com/watch?v=kIvnGBucGko)
 
